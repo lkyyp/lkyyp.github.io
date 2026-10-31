@@ -1,3 +1,20 @@
+Package: local.minis.hideairdrop
+Architecture: iphoneos-arm64
+Version: 1.1.0
+Section: Tweaks
+Maintainer: Minis
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
+Filename: debs/com.alex-分享精简.deb
+Size: 5310
+MD5sum: 3990db653c6f1b98157e3be1cc9b0c3b
+SHA1: 72f5701e45364fcb3fe089c2022e8bc95202d349
+SHA256: 99102c1ed87694a2eb7021d6932048347995d4bb56c9d9d74fdd4d500719e8ce
+SHA512: 5d2f8a490cc6ef0f9b61b54617429a13af96044b789666322a222cebb106bd33cfde2f331b1f8c4f1eb98d9d89acbd33c9e1dbbb982479803006f492648b7951
+Description: Hide AirDrop and the top people suggestions row in native iOS 16 share sheets.
+Name: Hide AirDrop (rootless)
+Author: Minis
+
 Package: com.axs.axon
 Architecture: iphoneos-arm64
 Version: 88-Alex
@@ -22,21 +39,4 @@ Name: Axon
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
-
-Package: local.minis.hideairdrop
-Architecture: iphoneos-arm64
-Version: 1.1.0
-Section: Tweaks
-Maintainer: Minis
-Installed-Size: 168
-Depends: mobilesubstrate, firmware (>= 16.0), firmware (<< 17.0)
-Filename: debs/pkg_1793427110291.deb
-Size: 5310
-MD5sum: 3990db653c6f1b98157e3be1cc9b0c3b
-SHA1: 72f5701e45364fcb3fe089c2022e8bc95202d349
-SHA256: 99102c1ed87694a2eb7021d6932048347995d4bb56c9d9d74fdd4d500719e8ce
-SHA512: 5d2f8a490cc6ef0f9b61b54617429a13af96044b789666322a222cebb106bd33cfde2f331b1f8c4f1eb98d9d89acbd33c9e1dbbb982479803006f492648b7951
-Description: Hide AirDrop and the top people suggestions row in native iOS 16 share sheets.
-Name: Hide AirDrop (rootless)
-Author: Minis
 
