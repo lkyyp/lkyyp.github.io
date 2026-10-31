@@ -1,5 +1,5 @@
-Origin: lkyyp Alex
-Label: lkyyp 
+Origin: lkyyp 的源
+Label: lkyyp 的源
 Suite: stable
 Version: 1.0
 Codename: ios
@@ -8,8 +8,8 @@ Components: main
 Description: lkyyp 的越狱软件源
 Support: https://lkyyp.github.io/lkyyp.github.io/
 MD5Sum:
- 553cb6bc2b48929166715050858fb678  1990 Packages
- 34689a5a13f73f808891a69283df8769  1269 Packages.gz
+ eae056e13e72a9c71cec5532579693e0  2676 Packages
+ fb12edc8cb4823174b6539bd4956cd78  1576 Packages.gz
 SHA256:
- f2dee957b96656eacc5818c3ac6d2b1c46ca5950ad6bb26241e47665e9daaa71  1990 Packages
- 19052f9fd23bd62fd927b7da476eafbc8f0bff03d39240a2709c007480bdf6e9  1269 Packages.gz
+ 732b155fbb07052a2e3d4af5b13de1bde130544a32b9900423be7f13884e33d6  2676 Packages
+ 5355efe2c387edf068f4a584fbd21519e18023fb9ac64757fe77b6eccbfd5089  1576 Packages.gz

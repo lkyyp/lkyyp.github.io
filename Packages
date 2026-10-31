@@ -15,11 +15,11 @@ Description: Hide AirDrop and the top people suggestions row in native iOS 16 sh
 Name: Hide AirDrop (rootless)
 Author: Minis
 
-Package: com.Alex.axon
+Package: com.axs.axon
 Architecture: iphoneos-arm64
 Version: 88-Alex
-Section: Alex-Tweaks
-Maintainer: Alex
+Section: Axs-Tweaks
+Maintainer: Axs
 Installed-Size: 1223
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.minis.hidencheaders
@@ -35,9 +35,25 @@ Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
  * 3.触觉反馈、深色模式、角标数量显示
  * 4.按时间/应用名/通知数量排序
  * 5.自定义间距、对齐方式、位置
- * 6.APP选择和显示数量自定义
 Name: Axon
-Author: Alex
+Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
+Package: com.wkk.glasssuitex
+Architecture: iphoneos-arm64
+Version: 1.1-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1980
+Depends: firmware (>= 15.0), firmware (<< 18.0), mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.wkk.glasssuitex_1.1-0_iphoneos-arm64.deb
+Size: 472784
+MD5sum: 9f9300e1d93677bcae77d88c65529599
+SHA1: 170d695f49ef60783a67e837b327ac42f17fcea1
+SHA256: c54db8b53d53c1533b7d4ab1a2e96ea243846cd94f044b2157b40202d69e803d
+SHA512: a5c74331284402e645b56788e4c3acf63c9d19c99676dce877d1f710446fa221b460b274b23d4e3a43858922a4d0df14adc761556054d0dab897c4609c888bd4
+Description: GlassSuiteX (SpringBoard-only safe build)
+Name: GlassSuiteX
+Author: wkk
 
