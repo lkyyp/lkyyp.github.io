@@ -15,11 +15,11 @@ Description: Hide AirDrop and the top people suggestions row in native iOS 16 sh
 Name: Hide AirDrop (rootless)
 Author: Minis
 
-Package: com.axs.axon
+Package: com.Alex.axon
 Architecture: iphoneos-arm64
 Version: 88-Alex
-Section: Axs-Tweaks
-Maintainer: Axs
+Section: Alex-Tweaks
+Maintainer: Alex
 Installed-Size: 1223
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.minis.hidencheaders
@@ -35,8 +35,9 @@ Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
  * 3.触觉反馈、深色模式、角标数量显示
  * 4.按时间/应用名/通知数量排序
  * 5.自定义间距、对齐方式、位置
+ * 6.APP选择和显示数量自定义
 Name: Axon
-Author: Axs
+Author: Alex
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
