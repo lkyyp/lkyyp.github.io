@@ -6,7 +6,7 @@ Maintainer: Axs
 Installed-Size: 1223
 Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
 Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.minis.hidencheaders
-Filename: debs/com.axs.axon_88-Alex_iphoneos-arm64.deb
+Filename: debs/com.axon_88-Alex_iphoneos-arm64.deb
 Size: 92678
 MD5sum: fc19b12021404ce36c8f234bedf67554
 SHA1: 6b408b733daa9fb323598deba97d8ea5aa4de918
