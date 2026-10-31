@@ -1,3 +1,28 @@
+Package: com.axs.axon
+Architecture: iphoneos-arm64
+Version: 88-Alex
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 1223
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.minis.hidencheaders
+Filename: debs/com.axs.axon_88-Alex_iphoneos-arm64.deb
+Size: 92678
+MD5sum: fc19b12021404ce36c8f234bedf67554
+SHA1: 6b408b733daa9fb323598deba97d8ea5aa4de918
+SHA256: 2306bd713b748457d663b915bf671377fd9f96a949188e8f480771ec3880e6c9
+SHA512: bfe60ac6c646577cf1e6aa6f344fcb3d93ef190472083f4cfd37ef43f70e7fc4e16d6b0a36c9ff8e1f5bc5ae93361330254f9f17d9f6e309e977ba8514e28d4d
+Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
+ * 1.按应用分组管理通知，一目了然
+ * 2.支持水平/垂直布局、多种图标样式
+ * 3.触觉反馈、深色模式、角标数量显示
+ * 4.按时间/应用名/通知数量排序
+ * 5.自定义间距、对齐方式、位置
+Name: Axon
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
