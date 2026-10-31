@@ -1,3 +1,57 @@
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64
+Version: 1.3.8+repair.test3
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 41014
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/88液态玻璃插件_1.3.8_rootless_免刀铺跳转.deb
+Size: 16960002
+MD5sum: c27752efff9ae8decbdc63eaad16bc33
+SHA1: eb20124a77682cc15efe9de172ed8e900c75de5c
+SHA256: e51c45dc04b3d3611ae2e1292f8f58e0e80e1545b6f64b78aaedd178ae58514f
+SHA512: d20547f10fb9bbc3b6b90ca518836eb9cf7698cbe75baa4f24e5871572987dd2331d8809d33915632b8b1b5db48f06e1f3daa8695d231202ded505ac14e066a5
+Description: 液态玻璃
+Name: 88液态玻璃插件 1.3.8
+Author: 一刀
+
+Package: com.minis.hidencheaders
+Architecture: iphoneos-arm64
+Version: 1.0.4+rootless
+Section: Tweaks
+Maintainer: L.E
+Installed-Size: 165
+Depends: firmware (>= 16.0)
+Filename: debs/HideNCHeaders_1.0.4_rootless_iphoneos-arm64(1).deb
+Size: 12404
+MD5sum: 231ad0f164619b18ba56811622dc9e07
+SHA1: 0e88715ddde3a046619806a04c0100b9133c360e
+SHA256: 5b002e9b1450c0be1c9910c1d210f8c2b930269c1eb9ace876187d41e4d66092
+SHA512: 7e84e3a02d2c806bbe4fe2e9bb24e6e9ca1553e06930cdb576b1b9ce8cddf0e08afd1bdb3e096be2e215d8c13df6e98790c347144619978077c895dca3cf6182
+Description: Hide notification group header and footer controls with zero occupancy. No preferences.
+Tag: role::enduser
+Name: 隐藏通知清除按钮
+Author: L.E
+
+Package: com.Axs.pogr
+Architecture: iphoneos-arm64
+Version: 0.5.5~prerelease3
+Section: Tweaks
+Maintainer: Ruphane
+Installed-Size: 484
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/Pods Grant耳机弹窗_0.5.5~3_无根.deb
+Size: 76872
+MD5sum: 583460406e384084cc9b2aadd7ccc951
+SHA1: 38ee9ae72cf89f9775ab9fb04f1d8e1c0f7d38ec
+SHA256: 2e76c554f781ad3086c2efe533de54d35c69892ab8bcdb9badb1642d140d1a55
+SHA512: 21512a78412b996869a947219e9435ad2523d9c364f02743efb5124ad4b42c273fec8174b37b2ed50e8e9649b9b2247754dfd1186ef0981d81b875fd269993d4
+Description: Tweak for better AirPods compatibility on old devices，不会再提示低版本连接，支持最新版airpods5
+Name: AirPods Grant耳机弹窗
+Author: Ruphane
+Icon: https://axs66.github.io/pro/icon/pogr.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/pogr/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -40,6 +94,39 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-50
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1368
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.cpufree_5.2.0-50_iphoneos-arm64.deb
+Size: 80638
+MD5sum: 5b85f07a1b096065c97cd0c8f7d97a15
+SHA1: 5069445364be1b5f6909aea7560115f13778c8a0
+SHA256: 927d978f001ce85cbed8902177b1b25dc839a16e857e87c12bbbd8fd83a3aec6
+SHA512: eea46244d74c55840e97fdbfd6395715e4e4ed7038ba60069f2484f864ebb410eb4f96d2acb8b05ff6a1d0e7b5755a6e5f8a1f6aa996b43cd17ababdc0dd8afe
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU频率上限：显示大核最高档位，低功耗模式下截断到上限 2016MHz。
+ * 五、机型适配
+ * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
+
 Package: com.wkk.glasssuitex
 Architecture: iphoneos-arm64
 Version: 1.1-2
@@ -56,4 +143,25 @@ SHA512: a5c74331284402e645b56788e4c3acf63c9d19c99676dce877d1f710446fa221b460b274
 Description: GlassSuiteX (SpringBoard-only safe build)
 Name: GlassSuiteX
 Author: wkk
+
+Package: com.Axs.bofangqi
+Architecture: iphoneos-arm64
+Version: 0.3.14
+Section: Tweaks
+Maintainer: 夜辰
+Installed-Size: 2708
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
+Conflicts: com.jaysuen.evocenter, com.local.nativeplayerresize
+Replaces: com.local.nativeplayerresize
+Filename: debs/原生播放器调节_0.3.14_无根.deb
+Size: 603484
+MD5sum: b376c1216df51be8cecee7c074e84996
+SHA1: 2537a845a79d02297b857b0375bb47da4446b80e
+SHA256: d65edd49fd98a3c832594a841c72e1e045e51196a420113212a88709e13bd0b3
+SHA512: 67277dceac1664d2292c7727327f71be025f1e2eec63121dcd68276f8c5f211c958504f9565c0c21f3813cebb3b8bd563c0561f0bca07b1b512da2accc476390
+Description: 单纯原生播放器尺寸调节
+Name: 原生播放器调节
+Author: 夜辰
+Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/bofangqi/js.json
 
