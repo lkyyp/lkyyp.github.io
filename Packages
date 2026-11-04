@@ -285,6 +285,25 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
+Package: com.axs.appselect
+Architecture: iphoneos-arm64
+Version: 5.2.0-12
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.appselect_5.2.0-12_iphoneos-arm64.deb
+Size: 43596
+MD5sum: 39dc55caa276dda32d43d3534b8edda6
+SHA1: 1e553d67adcb5e5e999acc6dc6d79da50647e901
+SHA256: eb912267574f49b99727077511635b8b224f9b58cf9a4c885b1bd82df52f63b3
+SHA512: 6ed6a1d2202f0d0056132a697c93a0341bfd7df40e3b6855413973371bcbd76dc3f11daeebb1938fe165fdb39552f924eaa063a9c18b2976e054f379e7017eae
+Description: App跳转拦截重定向选择器
+Name: AppSelect
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appselect.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
 Package: com.axs.bigtime
 Architecture: iphoneos-arm64
 Version: 5.2.0-81
@@ -357,6 +376,45 @@ Description: 一个强大的 iOS 温控管理插件，接管系统温控决策�
  * 2. CPU频率上限：显示大核最高档位，低功耗模式下截断到上限 2016MHz。
  * 五、机型适配
  * 1. 内置 A11–A17 Pro 大核频率表（2390 / 2490 / 2650 / 3090 / 3230 / 3460 / 3780MHz），按机型自动匹配上限。
+Name: CPU Free
+Author: Axs<qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/cpufree.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
+
+Package: com.axs.cpufree
+Architecture: iphoneos-arm64
+Version: 5.2.0-72
+Section: Axs-Tweaks
+Maintainer: Axs<qiaozhani000@163.com>
+Installed-Size: 1492
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.axs.cpufree_5.2.0-72_iphoneos-arm64.deb
+Size: 117642
+MD5sum: aefd8477d9f2d2430e11e09f3316c5d6
+SHA1: 24b4f9eb3f054fc040ea65605a79c61a11252523
+SHA256: 4375c912e981c2c0aea2fbab01980503b69737c96dde209b5d1237d37d94f637
+SHA512: c4cfe9d0c9b3d4590f9817a8fa01ab1702069c1ec8f87348c6dc329899a4ba8a343092c96dc19143d76db7df1d23625025864638723e530df93476a83b35af07
+Description: 一个强大的 iOS 温控管理插件，接管系统温控决策，让 iPhone 发热时不再被强行降频、降亮度。
+ * 一、双防护层拦截
+ * 1. IOKit 层：拦截传感器温度读取、降频指令、限频属性写入和高温广播，从源头掐断降频动作；
+ * 2. ObjC 层：钩住内部决策类，阻止决策树评估、软化控制力度、改写热配置表，并把热状态重置为正常。
+ * 二、双功率模式
+ * 1. 防温控：减少降频、防止降亮度，重载场景尽量维持满血频率；
+ * 2. 低功耗：限制 CPU 最高 2016MHz，不抬高待机频率，兼顾省电与性能。
+ * 三、独立开关
+ * 1. CPU 防降频、屏幕防降亮度、屏蔽高温提醒（含设置内的散热建议）均可单独开关；
+ * 2. 保留 70°C 安全阀：温度超过 70°C 或读温失败时自动放行系统保护，防止异常发热与黑屏。
+ * 四、控制中心模块
+ * 1. 功率模式切换：一键在「防温控 / 低功耗」之间切换；
+ * 2. CPU实时频率：显示大核最大驻留档位（实际工作频率），低功耗模式下不超过上限 2016MHz。
+ * 五、状态栏显示
+ * 1. 状态栏显示大核实时频率 + 整机 CPU 占用率（形如 3468MHz 42%），文字颜色跟随状态栏；
+ * 2. 位置可用面板的「水平 / 垂直偏移」微调，避开其它状态栏插件。
+ * 六、机型适配
+ * 1. 内置 A11–A17 Pro 大核上限表（2390 / 2490 / 2650 / 3090 / 3230 / 3468 / 3780MHz），按机型自动匹配上限。
+ * 七、刷新率管理
+ * 1. 支持 10 / 30 / 60 / 80 / 120Hz 优选帧率、全局注入及应用排除；
+ * 2. 提供系统调试 HUD 与 120fps 系统录屏支持，实际效果受设备和系统限制。
 Name: CPU Free
 Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
@@ -516,6 +574,34 @@ Name: TouchTrail
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/touchtrail/js.json
+
+Package: com.axs.tweakshub
+Architecture: iphoneos-arm64
+Version: 5.2.0-92
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 728
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.nightwind.onesettings, com.creaturecoding.shuffle, com.sop.settingsrevamp, com.hk.settingsrevamp, com.dao.settingsrevamp, byg.iosios.net.settingsrevamp
+Filename: debs/com.axs.tweakshub_5.2.0-92_iphoneos-arm64.deb
+Size: 72696
+MD5sum: 56c00d1f4d0c5de1fa71c673ad634d8c
+SHA1: 450a0096bacf4e2f1b3b9e728090538b96649858
+SHA256: a056b8b5e79d72fbe6e99227c84c18cb599abcd6393d5f79fe4b768aa8b495c4
+SHA512: 27ebc1a1bfb6f13fa43f3ee7d3d5174444b3b5b7ff2fb6bd665b36d9a9e25cc82e1aa84e26683860a06cfa588a6eff980c5d14da3487a5f622366d3705daa1e0
+Description: 集中收纳统一管理越狱插件与第三方 App 设置，支持插件自定义名称和图标。
+ * 设置首页同组并排两个入口：越狱插件 + 应用软件
+ * 自动隐藏其他插件的首页独立入口，整组收纳系统第三方 App 设置
+ * 越狱插件面板递归聚合所有已装插件设置
+ * 应用软件面板收录第三方 App 设置入口（点击仍进原生设置页）
+ * 支持 Prefs:root=TWEAKS_CELL / TWEAKS_APPS_CELL 深链直达
+ * 「附加功能」新增屏蔽部件与维修记录（隐藏非原装电池、维修记录相关提示行）
+ * 「附加功能」新增屏蔽系统更新提示（隐藏设置首页「现有 iOS xx 可用」行）
+ * 「附加功能」新增自定义插件名称与图标，图标放进 /var/mobile/Axs/TweaksHub/ 即可用
+Name: TweaksHub
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/tweakshub.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/tweakshub/js.json
 
 Package: com.exile90.icleanerpro
 Architecture: iphoneos-arm64
