@@ -71,6 +71,25 @@ Author: 0xkuj
 Icon: https://axs66.github.io/pro/icon/3dappversionspoofer.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.ccweathermodule
+Architecture: iphoneos-arm64
+Version: 1.0.4
+Section: 控制中心
+Maintainer: Axs
+Installed-Size: 356
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/com.Axs.ccweathermodule_1.0.4_iphoneos-arm64.deb
+Size: 92732
+MD5sum: 09e4c1533416a2636626b2ff6d8eaa0a
+SHA1: 2b2429cbc3cc0aa84479a6193fdd973840bbb290
+SHA256: 7c927994f103e4bfd8b9285d20e6bc5e60b593b85c9230deaf834bf5892a7e7e
+SHA512: fa059b57c17df6603c9c924c33b06e0f8e1f70232a63307db92c1c4b544403fd9685a9218c61a6cd1e92fb6bb933b41bc7b5da2c00b2bcb404767e57c51081a7
+Description: 控制中心的天气模块。 显示当前天气、温度和每小时预报。
+Name: 控制中心天气
+Author: simon
+Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
