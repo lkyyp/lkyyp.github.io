@@ -460,6 +460,27 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/touchtrail.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/touchtrail/js.json
 
+Package: com.exile90.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Section: 应用程序
+Maintainer: Ivano Bilenchi
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.exile90.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 977908
+MD5sum: 2152aa3075aa8da63b2916856eed43b6
+SHA1: f4f336406c354aedf5ae947134901e52f9b8e9be
+SHA256: 745264c2e1c4fc9c00cca37bd75f921199d88bd198519625bd82254c5b1cecc5
+SHA512: 97a10fd6715d6d1b892764637c995b656218d6d6439912ef0d3f9341667ad28c8a5136e3a3e17a68311c00b74cb80b585cea32ac44e9c6c66806169412f678c4
+Homepage: https://axs66.github.io/pro
+Description: The first real iOS system cleanup and management utility
+Author: Ivano Bilenchi
+Name: iCleaner Pro 小扫把
+Icon: https://axs66.github.io/pro/icon/iCleanerPro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/icleanerpro/js.json
+
 Package: com.nan.bindfs
 Architecture: iphoneos-arm64
 Version: 0.7.3
@@ -478,6 +499,46 @@ Name: mount_bindfs
 Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
 SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
 Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
+Package: com.spark.snowboard.dock
+Architecture: iphoneos-arm64
+Version: 1.1.3~Beta4-rootless
+Section: 滑雪板
+Maintainer: Spark
+Installed-Size: 440
+Depends: mobilesubstrate, com.spark.snowboard (>= 1.2.100)
+Filename: debs/com.spark.snowboard.dock_1.1.3_Beta4-rootless_iphoneos-arm64.deb
+Size: 32216
+MD5sum: 21afc4cb2c1eedd980f0c902e80555c2
+SHA1: bd27b75686f846b08b2aca52aecf18c25e2dd352
+SHA256: 7b63ff09c06ba7fdc095810f2ba9f2374f29a9e2e5b9db176b6bc7b6dbad853e
+SHA512: 4763f3a8211be23bde4ac6b15b7a111c0368b471a0a44d75c976e87faf8632441a5e5ea5edbaec63465e1a8704a96da93dcef53d6187865aa528fa71e3950888
+Description: Dock for SnowBoard
+Name: SnowBoard Dock Extension
+Author: Spark
+Icon: https://axs66.github.io/pro/icon/snowboard.png
+
+Package: com.spark.snowboard
+Architecture: iphoneos-arm64
+Version: 1.5.37-Beta4-rootless
+Section: 滑雪板
+Maintainer: Spark
+Installed-Size: 3268
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: debs/com.spark.snowboard_1.5.37-Beta4-rootless_iphoneos-arm64.deb
+Size: 1124208
+MD5sum: 004c95e0e3fb2807b292cd5dfc5328d9
+SHA1: dfba2ac4089aae4e473724e138d8897c5d9a5fb8
+SHA256: 63364e3f87f059dfbf457f3396ec6d2a45939571f3ec4ddeb7fcddd678012a22
+SHA512: 4b19ba2b8062a39ad3dbd8bc7517aa8c7ef5170c9258d467f9f4c3ba66d54cae9f2027b6db4f925781319c5efd7cdc325b5ec316d85e7803510b4a7f47dfece8
+Description: Snowboard theming engine
+Name: SnowBoard
+Author: Spark & Dennis D. Bednarz
+Icon: https://axs66.github.io/pro/icon/snowboard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.wkk.glasssuitex
 Architecture: iphoneos-arm64
