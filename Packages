@@ -52,6 +52,25 @@ Author: Ruphane
 Icon: https://axs66.github.io/pro/icon/pogr.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/pogr/js.json
 
+Package: com.Axs.3dappversionspoofer
+Architecture: iphoneos-arm64
+Version: 2.1.1
+Section: 系统增强
+Maintainer: 0xkuj
+Installed-Size: 408
+Depends: com.opa334.altlist
+Filename: debs/com.Axs.3dappversionspoofer_2.1.1_iphoneos-arm64.deb
+Size: 60196
+MD5sum: 082c7dbaeb6263d2e66330a370ddfaa5
+SHA1: 7aa0198c57eb8fb490f6cac854e7e6aa06b0ce7f
+SHA256: b1d3d9d7b1c729d25388cb1f683197765b05814f06bde330ecc7cf669101ae33
+SHA512: 0510c6113a1f1121b3ae17a1b03b890b7195b26036c805d8c22bec934dc819944afa8ba3a868a1d74d89a99dfa10ca7e3184b398e860087ee5065569fd8118da
+Description: A tweak to add app spoofing capabilities right from your 3D menu and prefs
+Name: 3DAppVersionSpoofer
+Author: 0xkuj
+Icon: https://axs66.github.io/pro/icon/3dappversionspoofer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
