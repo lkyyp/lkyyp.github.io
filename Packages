@@ -540,6 +540,26 @@ Author: Spark & Dennis D. Bednarz
 Icon: https://axs66.github.io/pro/icon/snowboard.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.tigisoftware.filza64bit
+Architecture: iphoneos-arm64
+Version: 4.0.1-4
+Section: 应用程序
+Maintainer: TIGI Software
+Installed-Size: 23200
+Recommends: zip, unzip, gzip, p7zip, unrar, xz-utils
+Conflicts: com.tigisoftware.filza, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza64bit_4.0.1-4_iphoneos-arm64.deb
+Size: 6974364
+MD5sum: fe3849b5b297b4943d77dc7d9e115d02
+SHA1: 64ff7613baf6c952e4eb2bb7a3997ff5aca6f36a
+SHA256: 8276f5d832340790caf7942595b2b0a58d82e0e286b5f5fad6de0ac5f443d024
+SHA512: 306f98405dc0706cc1c5484daefbc58fc2f6610f6561e4ef465dc54319775b6b27d17b4e0ea6ee41e4b5db0b46d29fce522c8e9ab9d823c98a82221df95c3c83
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 11+. This version only supports 64-bit devices
+Name: Filza File Manager 64-bit
+Author: TIGI Software
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
 Package: com.wkk.glasssuitex
 Architecture: iphoneos-arm64
 Version: 1.1-2
