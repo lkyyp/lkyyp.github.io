@@ -90,6 +90,44 @@ Author: simon
 Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.filzacrack
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.netskao.filzacrack, netskao.filzacrack-rootless
+Filename: debs/com.Axs.filzacrack_1.1-9_iphoneos-arm64.deb
+Size: 28804
+MD5sum: 030a1ddf372f6b822550d3a6e4cdcb6f
+SHA1: fbf227feb99602035f38a996af035a7d9936fd48
+SHA256: 260dce95397f44f06a756a6f8740a17024f2b7c8d4f541ca280652363da0aac0
+SHA512: e45de6e720aeb43279afb48857c301f85a77de241263adedec21f8d224d9f2323720e0637df0ccb5f37483603c841ccdb5b62352f6c92f3d5e9706502c1db480
+Description: Filza解锁全部功能，请在官方源安装Filza。Netskao新更的版本，上架备份。
+Name: Filza Crack
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzacrack/js.json
+
+Package: com.Axs.filzaswipeselect
+Architecture: iphoneos-arm64
+Version: 0.0.2
+Section: 应用程序
+Maintainer: Axs
+Installed-Size: 184
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.filzaswipeselect_0.0.2_iphoneos-arm64.deb
+Size: 8680
+MD5sum: 08c0fb954591d22031208f0b2d9975b3
+SHA1: 2572d732bd5edc5fb950a6da5b39f95397d4c7e4
+SHA256: 9db85b70f62236844c1d2b6589865f4424a303382f04c898eaa0e40f0e5293ab
+SHA512: 2c0c4f99f23dce875f4dfd2bde65a1ec0e3c4a7374ded080e16f3b2dcd1218eb09fd62d8170ce7a0d88c9950a17f9da0feb47d6555b384341fad8bc4a3797cc1
+Description: Filza 支持滑动多选文件，告别逐个点击
+Name: Filza滑动多选
+Author: korboy
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzaswipeselect/js.json
+
 Package: com.Axs.kongzhidiy
 Architecture: iphoneos-arm64
 Version: 2.3.6-end
@@ -108,6 +146,25 @@ Name: 控制中心美化
 Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+
+Package: com.Axs.mterminal
+Architecture: iphoneos-arm64
+Version: 1.6
+Section: Tweaks
+Maintainer: D.F (MTAC)
+Installed-Size: 272
+Depends: coreutils, firmware (>= 11.0), system-cmds, zsh
+Filename: debs/com.Axs.mterminal_1.6_iphoneos-arm64.deb
+Size: 86416
+MD5sum: fb67d213c8815cd80766e9337d5f90cd
+SHA1: b5edc390475548f407ae329f6ca3dcd519a1e64e
+SHA256: cbba409afcbaea402ae7c91dde0e2cb31ba1f1798370ba6cce4e221993f42b26
+SHA512: 0a9ed1f0e5e3669bbef0a1b7c9d2e0233b1b585f1b062e3befee01ee80fbf89d86b0b84ab0ce4648bccf6459b1bfa3c30ad6da952b351fd69622e11c4c884b69
+Description: 终端应用程序
+Name: MTerminal终端
+Author: lordscotland
+Icon: https://axs66.github.io/pro/icon/mterminal.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/mterminal/js.json
 
 Package: com.Axs.smallboards
 Architecture: iphoneos-arm64
