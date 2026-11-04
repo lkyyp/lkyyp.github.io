@@ -109,6 +109,26 @@ Author: binglan
 Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
 
+Package: com.Axs.smallboards
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: 系统增强
+Maintainer: iCraze
+Installed-Size: 152
+Depends: mobilesubstrate
+Conflicts: com.icraze.smallboard
+Filename: debs/com.Axs.smallboards_1.1_iphoneos-arm64.deb
+Size: 3708
+MD5sum: 4cbc7264086cd665a5738656fa5b39df
+SHA1: 9c70d0fda99e4bd76fef0a5a4f7319420e2241eb
+SHA256: d97dd2a284633240a079b8b187b25598e403cc125b0531d1cb98587d2174152c
+SHA512: 119ff1a206dc6d7fbfd868adee6e000cf903ccd48c1e0e9f54f80d8441b0b783f3f56ac2ff10957dd055036c9e54c38aa510a90fcf44ecda169ef7ba30f64ece
+Description: 缩小键盘与底部的间隙，无设置项，安装注销生效。
+Name: SmallBoard 键盘下沉
+Author: iCraze
+Icon: https://axs66.github.io/pro/icon/SmallBoard.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/SmallBoard/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
