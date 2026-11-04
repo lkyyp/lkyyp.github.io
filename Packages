@@ -594,6 +594,58 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Name: 电话助手iOS15-正式版(Rootless)
 Author: xybp888
 
+Package: com.xybp888.callassist17.dopamine
+Architecture: iphoneos-arm64
+Version: 2.4.3
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 17.0), preferenceloader, com.opa334.libsandy
+Filename: debs/com.xybp888.callassist17.dopamine_2.4.3_iphoneos-arm64.deb
+Size: 3649572
+MD5sum: 17b4baa61d56a35a1f9a312020f12257
+SHA1: 2b8f4215483c2f301f57f1b2abfe654a8731a337
+SHA256: 99545e3b7fe6d651d36ceb4c985479728a1af83ba6fe6786cbd6a84ff268a618
+SHA512: abe0a0c625e35c81f9fc0478ad75efba607c93760e1879d97c93fe26354d4f7e32f0924e4f7fd3a6aca90bab8d106446ded79a7d775ae30418f17519ded1ecc8
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS17-正式版(Rootless)
+Author: xybp888
+
+Package: com.xybp888.noapplemobilerepair
+Architecture: iphoneos-arm64e
+Version: 0.0.1-104
+Section: Tweaks
+Maintainer: xybp888
+Installed-Size: 152
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xybp888.noapplemobilerepair_0.0.1-104_iphoneos-arm64e.deb
+Size: 10984
+MD5sum: c280aeb6c502c962f26127e7de2e2158
+SHA1: 523b8314a41a85e065627a3163ca459c528c1d2b
+SHA256: 9141a245b7434eee8e108bf1c1428f4e3489aea880abd3781984d56db1bad9ce
+SHA512: dd2239f520f203d983f10177e897bfacf43ea24e034d1cd67d4ad19109baf4323c1d321a5f7053e638b67461d0ef80c1e97a3a76fe8e9bb24a3167f8e189abb8
+Description: No Apple MobileRepair
+Name: No Apple MobileRepair(RootHide)
+Author: xybp888
+
+Package: com.xybp888.perfectdynamiclsland
+Architecture: iphoneos-arm64
+Version: 1.4.0
+Priority: optional
+Section: System
+Maintainer: xybp888
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.xybp888.perfectdynamiclsland_1.4.0_iphoneos-arm64.deb
+Size: 923934
+MD5sum: 82c59bef843c13c098b24f998dcca4bf
+SHA1: 8454963a5116fdb9d9b921e8c39263b759081577
+SHA256: c82926ea85e548a11f93b641fd24fcc78868a927ddf906852921e2b8131acae4
+SHA512: c29cc48a2b896158d20aad7015264b6b37b07f5f4f3d414c69f6aa70eea2dd0de30e65b9a591842c2cc86de5d2d0d807b1b28d807248bc8495fe208e1e49d577
+Description: 电话助手激活用户专属免费插件
+ 完美的使用原生灵动岛展示系统通知等...
+Name: 灵动通知iOS16-正式版(Rootless)
+Author: xybp888
+
 Package: com.Axs.bofangqi
 Architecture: iphoneos-arm64
 Version: 0.3.14
