@@ -577,6 +577,23 @@ Description: GlassSuiteX (SpringBoard-only safe build)
 Name: GlassSuiteX
 Author: wkk
 
+Package: com.xybp888.callassist15.fugu15
+Architecture: iphoneos-arm64
+Version: 2.5.1
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 15.0), preferenceloader,com.opa334.libsandy
+Filename: debs/com.xybp888.callassist15.fugu15_2.5.1_iphoneos-arm64.deb
+Size: 2849106
+MD5sum: a98343917248213d3150aa42d3e18c10
+SHA1: 6c734403b7775ef5d74062221f0ee39394d261b0
+SHA256: 338c3a2e80755edc42ce218a716e48dd7aecafd8d0a1d6328a69bcef43b31aef
+SHA512: d62c5717f84c7a2a254ed14dd26eec4f06ba8346a48d22a909a9e7ca95bad31160a14b2f569a3c880cd9b2cafcd61696b40e772660af4da1671525212d1b434a
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS15-正式版(Rootless)
+Author: xybp888
+
 Package: com.Axs.bofangqi
 Architecture: iphoneos-arm64
 Version: 0.3.14
