@@ -320,6 +320,30 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/keyboardtools.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
 
+Package: com.axs.lockplayer
+Architecture: iphoneos-arm64
+Version: 5.2.0-12
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 668
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.lockplayer_5.2.0-12_iphoneos-arm64.deb
+Size: 115130
+MD5sum: 12447edeb099ea58a4ae042c295c0de4
+SHA1: 5ac7dbfc8daf2a350fdf61517ab867a1ff619e99
+SHA256: 81e5e51dbeadbd8996288069ba32657e64c6f8cf2e4780c9e87e5a634f0c1f81
+SHA512: efc3862910fd3d583526bb425bc0e785a35467fd7ccc09a911b22cc54ba60cc997de2e8e4c189ec6be514420d2eff5cad746e4334bea7abb67cc6e2b9eb33a40
+Description: lockplayer锁屏播放器，功能介绍：
+	  *  1.点击专辑封面：跳转到当前播放 App
+	  *  2.背景中部点击：播放/暂停
+	  *  3.向左滑：上一曲；向右滑：下一曲
+	  *  4.安装本插件后：原生锁屏播放器自动隐藏，仅显示 LockPlayer 面板
+	  *  5.进度条：支持拖动定位，松手后自动更新播放进度
+Name: LockPlayer
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/lockplayer.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/lockplayer/js.json
+
 Package: com.nan.bindfs
 Architecture: iphoneos-arm64
 Version: 0.7.3
