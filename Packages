@@ -90,6 +90,25 @@ Author: simon
 Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.kongzhidiy
+Architecture: iphoneos-arm64
+Version: 2.3.6-end
+Section: Tweaks
+Maintainer: binglan
+Installed-Size: 8024
+Depends: mobilesubstrate, firmware (>= 15.0), com.opa334.ccsupport
+Filename: debs/com.Axs.kongzhidiy_2.3.6-end_iphoneos-arm64.deb
+Size: 3740264
+MD5sum: 968963b7da571f0aa0c6603bb50f0817
+SHA1: 4317c7d5f3121a778db011cb0841c92355ee393e
+SHA256: 112c81ec7986aed64dfea3999152529a4300f737cf8c8b4b926d2c8f9f21f098
+SHA512: f8af7fa4fd4adc7c42518db12c87ca36a9a36db32f6ab8e6949d7b712d603767e91f598a120b83cd9bbebc15f528061049a1c3287ccce8a70278939e1575935d
+Description: 这是一个简单的控制中心美化插件。
+Name: 控制中心美化
+Author: binglan
+Icon: https://axs66.github.io/pro/icon/kongzhidiy.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/kongzhidiy/js.json
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
