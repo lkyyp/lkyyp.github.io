@@ -71,6 +71,44 @@ Author: 0xkuj
 Icon: https://axs66.github.io/pro/icon/3dappversionspoofer.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.appstoretroller
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 212
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.Axs.appstoretroller_0.1.3_iphoneos-arm64.deb
+Size: 14284
+MD5sum: f503a4f36f01f68107c1fbd9f3deab30
+SHA1: 443823d673b9198116648d12f9026bff36aac829
+SHA256: ddf2c7f00268516f9feb2dfe7c47929a26b55f5339e7ac995b25da4721f4dc5d
+SHA512: 7c03b924d3509e622d007942ef369d15bc52946680a7fcb9263b178cbf35ceb93b135c2c2e63569ac88ab51724077191218f461b3e9ee7e5f5bba1f9d6690ca6
+Description: 将设置移至桌面AppStore长按快捷菜单
+Name: AppStoreTroller
+Author: Mineek
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appstore/js.json
+
+Package: com.Axs.appstoreupdateblock
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Section: Tweaks
+Maintainer: 白白白
+Installed-Size: 239
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.Axs.appstoreupdateblock_0.1.0_iphoneos-arm64.deb
+Size: 16888
+MD5sum: 6c51a3fe5dd85e16113df17cf949f4a0
+SHA1: 8b4ee5339cf58b04eb3b0e9624cf1566164e1524
+SHA256: b5d29e2908d3bd29d5c732636bdbef076282790bb2c9e00e1930705912fe6a12
+SHA512: 1d18bc60f9fbc399e2250f81ec3c47798dfb51df1d83c3974494da2ef3617aa4b0b148be778c2b35cae4093e7fb44be00b1da6caefda518a532706b85707a12e
+Description: 在 App Store 里按应用屏蔽更新，被屏蔽的应用不再出现在更新列表，也不会被一次全部更新。
+Name: App Store 更新屏蔽
+Author: 白白白
+Icon: https://axs66.github.io/pro/icon/appstore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appstoreupdateblock/js.json
+
 Package: com.Axs.ccweathermodule
 Architecture: iphoneos-arm64
 Version: 1.0.4
@@ -165,6 +203,25 @@ Name: MTerminal终端
 Author: lordscotland
 Icon: https://axs66.github.io/pro/icon/mterminal.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/mterminal/js.json
+
+Package: com.Axs.qqnotiavatar
+Architecture: iphoneos-arm64
+Version: 1.2-2
+Section: Tweaks
+Maintainer: Nets
+Installed-Size: 204
+Depends: firmware (>= 15.0), firmware (<< 17.0), mobilesubstrate
+Filename: debs/com.Axs.qqnotiavatar_1.2-2_iphoneos-arm64.deb
+Size: 25664
+MD5sum: 22c6c67cfdc5adb71d3ece55fe388a7b
+SHA1: f1f0186c526aa21079b5e2ffa4d6fcb33fb5542f
+SHA256: c43ce4cb31b766c2f9b78ac507a6882e9aef692a8d10dd339718eb8b6a383e2a
+SHA512: 800f0651aa0d2d3115bfe9488773234ce847e59b1be61f0c758f99f67dcfc9ef90462e9a34639ef0c1f631b50ee1d01b7daac815fc3d58e058e9c3809a4a93e5
+Description: Display Notification Avatars for QQ App using iOS15+ APIs
+Name: QQ通知头像
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/qq.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
 Package: com.Axs.smallboards
 Architecture: iphoneos-arm64
