@@ -127,6 +127,25 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
+Package: com.nan.bindfs
+Architecture: iphoneos-arm64
+Version: 0.7.3
+Section: System
+Maintainer: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+Depends: firmware (>> 14.0), preferenceloader
+Conflicts: mobilesubstrate (= 999)
+Filename: debs/com.nan.bindfs_0.7.3_iphoneos-arm64.deb
+Size: 53480
+MD5sum: af736e2771e3a1f32302596125dcc140
+SHA1: 84f23b10312ae9388cec6a56d2bdb7fc8ca8ca33
+SHA256: f6703557b5ae89bb46387de75002fd871c41f2986206dd478120f58ab39d5bdc
+SHA512: 8be7402fc79e1eb9d440aa186e07bda9e56e675364be2b6c48389875268017434997761a097cf627abb5412f373b74b6996751046b736bde37d9cbe278d4a0ac
+Description: bindfs 挂载工具
+Name: mount_bindfs
+Author: 无尽伤痛都锁进黑夜 & Grok & zhaonan
+SileoDepiction: https://invalidunit.github.io/sileodepiction/com.nan.bindfs/js.json
+Icon: https://invalidunit.github.io/sileodepiction/default/image_terminal.png
+
 Package: com.wkk.glasssuitex
 Architecture: iphoneos-arm64
 Version: 1.1-2
