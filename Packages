@@ -15,6 +15,35 @@ Description: 液态玻璃
 Name: 88液态玻璃插件 1.3.8
 Author: 一刀
 
+Package: com.axs.gesturepro
+Architecture: iphoneos-arm64
+Version: 5.2.0
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 628
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/Gesturepro_5.2.0_ALEX无根.deb
+Size: 83204
+MD5sum: 3143c9797c953bd555e7484951a7398f
+SHA1: 97a9e56660a4cff4ffb451325885d694f542e162
+SHA256: dc7723eb760f2a91968795077f4ac1b50c4ced90cac01ba7ca91163f26651c12
+SHA512: 51964de16bff9f0599fb08929b095893ec9f5c3bda3e047fa69cde9791c9d74ac949643bb151e1eb8ab459198caec1acbe5869b041674ce1411b16c0e02e8922
+Description: iOS 手势与实体按键触发插件，可为状态栏/主屏幕按钮/底部栏/实体按键/摇动等触发绑定任意动作。
+ * 1.状态栏手势：左/灵动岛/右三区域独立配置，每区域支持单击、双击、长按、左滑、右滑
+ * 2.主屏幕手势：主屏幕按钮双击、三击
+ * 3.底栏手势：底部栏左滑、右滑、上滑
+ * 4.底部角落手势：屏幕底部左右角落的点击 / 滑动触发；滑动绑定多动作时呼出扇形菜单（arc）
+ * 5.实体按键：音量＋/－长按、音量双键、电源双击/三击/长按、电源键＋音量±
+ * 6.重力手势：摇动设备
+ * 7.基础动作：系统录屏、系统截图、锁屏、主屏幕、控制中心、手电筒、Siri、旋转锁定、注销、安全模式
+ * 8.打开App：选择手机上已安装的 App（含 TrollStore/巨魔安装），按 Bundle ID 拉起；分类面板支持顶部搜索
+ * 9.快捷指令：选择手机上已添加的指令并运行
+ * 10.预设链接：自定义 URL 深链，支持 @@@ 输入关键词、$$$ 剪贴板占位与自定义图标
+Name: GesturePro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/gesturepro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/gesturepro/js.json
+
 Package: com.minis.hidencheaders
 Architecture: iphoneos-arm64
 Version: 1.0.4+rootless
@@ -51,6 +80,42 @@ Name: AirPods Grant耳机弹窗
 Author: Ruphane
 Icon: https://axs66.github.io/pro/icon/pogr.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/pogr/js.json
+
+Package: com.nx.accode
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: System
+Maintainer: Crassna
+Installed-Size: 204
+Depends: firmware (>= 16.1) | org.swift.libswift (>= 5.0)
+Filename: debs/c_acc-arm64e.deb
+Size: 19162
+MD5sum: 6042093be5cf12305d158cac6bdc7661
+SHA1: 82918392e784774f3e0231b2a8b59f2565fb93e7
+SHA256: c84f1e18b3dcda3ec7248863aad1eaeb1b843483f54b72d2d2e0e971953cf4aa
+SHA512: 906d0637ad606d2c752af2f046bf1fc4798f9d599a3bbcdfe51608ce4439c37f31bb8f2cc03ffb985e9d30e51e718cf5f14a776cf47e38e2acc798ce0939442b
+Description: An awesome tool of some sort!!
+Tag: role::hacker
+Name: stheno
+Author: Crassna
+
+Package: com.0xkuj.filzadirprobe
+Architecture: iphoneos-arm64
+Version: 1.7.3
+Section: Tweaks
+Maintainer: 0xkuj
+Installed-Size: 240
+Filename: debs/com.0xkuj.filzadirprobe_1.7.3_iphoneos-arm64.deb
+Size: 35652
+MD5sum: 6057eae083fa55c46fa6138787dab526
+SHA1: 96e206d1193d463a49e8d4ac8b342ca3e983b25b
+SHA256: 1dece3734720956425a1cba5e05bb3cf36aa9533c8e396ecd97500a33cba634b
+SHA512: cf9bf3c223ae3cc3af5fc33504b6f026b79bc2573380d69bab47059496fbaa806a66a534f2418146c3163cdfe7a4ecc959c9429e3d09a32664f74234d43f09d7
+Description: 计算Filza里文件夹大小。
+Name: FilzaDirProbe
+Author: 0xkuj
+Icon: https://axs66.github.io/pro/icon/filza.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/filza/js.json
 
 Package: com.Axs.3dappversionspoofer
 Architecture: iphoneos-arm64
@@ -285,6 +350,25 @@ Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
+Package: com.axs.appiconbundles
+Architecture: iphoneos-arm64
+Version: 5.2.0-86
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 468
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.axs.appiconbundles_5.2.0-86_iphoneos-arm64_2.deb
+Size: 62132
+MD5sum: 959e7c05ca4ca30f0c3bd13f07698b63
+SHA1: 921cc37f8222d1d94a49edf44dba2baa2b080fff
+SHA256: 103d743484029753b26eb19b792196c03b553c5fd035d8d368178255dc57d36b
+SHA512: 8792c513080dd1e67e7fd59b57e03dfcfe85fca5d2f3d0483d6ff61c5e3270402672377d1fedaf25cbef23b5e200017ded5a343e27d199702d85d186f1ff1751
+Description: Replace SpringBoard home screen and Dock app icons from theme folders under /var/mobile/Axs/IconBundles by bundle identifier file names.
+Name: AppIcon
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/appicon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/appicon/js.json
+
 Package: com.axs.appselect
 Architecture: iphoneos-arm64
 Version: 5.2.0-12
@@ -303,6 +387,31 @@ Name: AppSelect
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/appselect.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/appselect/js.json
+
+Package: com.axs.axon
+Architecture: iphoneos-arm64
+Version: 88-Alex
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 1223
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0)
+Conflicts: io.ominousness.stackxi, com.thomasfinch.priorityhub, com.ioscreatix.intelixbeta, com.ioscreatix.intelix, com.spiritoflogic.ncunify, com.spiritoflogic.unifyx, com.hidan.nclink10, org.coolstar.ventana-modern, org.coolstar.ventana, org.s1ris.spinxi, com.minis.hidencheaders
+Filename: debs/com.axs.axon_88-Alex_iphoneos-arm64.deb
+Size: 92678
+MD5sum: fc19b12021404ce36c8f234bedf67554
+SHA1: 6b408b733daa9fb323598deba97d8ea5aa4de918
+SHA256: 2306bd713b748457d663b915bf671377fd9f96a949188e8f480771ec3880e6c9
+SHA512: bfe60ac6c646577cf1e6aa6f344fcb3d93ef190472083f4cfd37ef43f70e7fc4e16d6b0a36c9ff8e1f5bc5ae93361330254f9f17d9f6e309e977ba8514e28d4d
+Description: Priority Hub for iOS 16 - 将锁屏通知按应用智能分组。
+ * 1.按应用分组管理通知，一目了然
+ * 2.支持水平/垂直布局、多种图标样式
+ * 3.触觉反馈、深色模式、角标数量显示
+ * 4.按时间/应用名/通知数量排序
+ * 5.自定义间距、对齐方式、位置
+Name: Axon
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/axon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
 
 Package: com.axs.bigtime
 Architecture: iphoneos-arm64
@@ -328,6 +437,25 @@ Name: BigTime
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/bigtime.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bigtime/js.json
+
+Package: com.axs.callershow
+Architecture: iphoneos-arm64
+Version: 5.2.0-79
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 516
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.callershow_5.2.0-79_iphoneos-arm64.deb
+Size: 55740
+MD5sum: a7442d49e7f726d6267be5f07bc18b75
+SHA1: a96fbb47e015a64145626546127eddb26a286965
+SHA256: a3cfcc279b1be0266291a0d188682e22db53fb7ef5aba4a1fb87d235941d1316
+SHA512: 746af1d1b7e72de7463d20d0f59dc69d9b76e28d86ec7a7ada3ae836c35b13b0fe90bf04ff2031ba89c7ad41da7fa0a305ddb196470a84da966e328a2012758d
+Description: 为来电、去电添加循环视频背景，支持系统电话、微信CallKit语音，素材支持图片和视频格式。
+Name: CallerShow
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/callershow.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/callershow/js.json
 
 Package: com.axs.clean
 Architecture: iphoneos-arm64
@@ -420,6 +548,25 @@ Author: Axs<qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/cpufree.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/cpufree/js.json
 
+Package: com.axs.dockfloat
+Architecture: iphoneos-arm64
+Version: 5.2.0-11
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.dockfloat_5.2.0-11_iphoneos-arm64-rootless.deb
+Size: 31816
+MD5sum: 3e69a995bcfa0b599cffa2e3546ae3b3
+SHA1: 9ce94c731f5bd821a1fcb248429be7ccd69bd86b
+SHA256: f0cbc362e6f696f7a919ebabcf03eae7d011cb58525349aaeef609754f1646eb
+SHA512: ebcc1796c1ca78cf35f8c0b4099d7b4fab0eca9f9c1c3f77590215bc988f03d8bd04b0089adec68e9115f6038d6b9f01d40f8c213fba1af85d0f4c2ddc4e9a5c
+Description: Dock 动效美化：浮动/翻滚/抖动
+Name: Dock浮动
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dockfloat.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/dockfloat/js.json
+
 Package: com.axs.duostatus
 Architecture: iphoneos-arm64
 Version: 5.2.0-119
@@ -444,6 +591,30 @@ Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/duostatus/js.json
+
+Package: com.axs.ios16dao
+Architecture: iphoneos-arm64
+Version: 5.2.0-351
+Section: 灵动岛
+Maintainer: Axs
+Installed-Size: 780
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist
+Filename: debs/com.axs.ios16dao_5.2.0-351_iphoneos-arm64.deb
+Size: 143892
+MD5sum: 0445c054cd4a9aeda84fbda7bbaa8889
+SHA1: a9f79ba6bd27284d9df87c48bf55638ef18ce1ea
+SHA256: acef4b6cd0c0f01cbf946d184ac3a2905154443784a200ead21bef3c2a721df3
+SHA512: 5a6ff74d95c6b5315748a048e055da6b6fbc816b66e20b47bb0bd8870d30cbed2f1e2e555c903d7bc03b0886c08d09705963ff3a8df47ce8837d8d7ea569148a
+Description: 一款市面上最优秀、功能最完整、最稳定的灵动岛插件。集成授权校验联系:VCR66T
+ * 1. 动态岛自定义背景，支持 PNG/JPG/GIF/MP4。
+ * 2. 录屏的时候，可以隐藏原生岛黑色区域，让效果更美观。
+ * 3. 内置纯代码灵动光圈（如彩虹环、彩虹流星、舞台灯、跑马灯、纯色线框）、漂亮的七彩随机光圈阴影等特效。
+ * 4. 灵动岛左右两侧自定义png图片帧率动画（如写轮眼、跳舞等玩法）。
+ * 5. 本插件无需任何依赖、支持手势录屏触发，已经达到极致水平。
+Name: ios16~17动态岛
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/dynamicnotland.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/ios16dao/js.json
 
 Package: com.axs.ipslog
 Architecture: iphoneos-arm64e
@@ -492,6 +663,31 @@ Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/keyboardtools.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/keyboardtools/js.json
 
+Package: com.axs.livewallpaper
+Architecture: iphoneos-arm64
+Version: 5.2.0-84
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 600
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader, unzip
+Filename: debs/com.axs.livewallpaper_5.2.0-84_iphoneos-arm64.deb
+Size: 76060
+MD5sum: 0a3fc1a16d8af8054255dce34d2c4383
+SHA1: d89ee02ca860e85cd80c2e3b088300a6c80e6dda
+SHA256: 1d131dc47ff7c14085c89926d94ae73e98f420f8fcbf3c9f60dd8cd1e9cf7f54
+SHA512: 5f35619d9145c7fdbbffbe0a4b7e7d16399d46286ebdef3738cf58e041bcc2eba6ad1d73fe1a614827abd9186230b0098390a2b1dc428bb2839def25d90543a3
+Description: 这是一款锁屏与主屏幕动态壁纸。付费插件，需要请联系微信:VCR66T
+ * 1. 支持锁屏界面图片/视频素材选择。
+ * 2. 支持主屏幕界面图片/视频素材背景。
+ * 3. 支持一键添加素材到指定目录。
+ * 4. 支持 FlipCard 图片壁纸：多图随陀螺仪倾斜动态切换，支持渐隐渐显/棱镜光栅/磨砂玻璃/景深四种过渡效果。
+ * 5. 支持交互壁纸（.tendies）：导入 CAPackage/CAML 多层动画包，锁屏状态切换（Locked/Unlock/Sleep）。
+ * 6. 支持14.0-17.0 有根/无根/隐根越狱设备。
+Name: LiveWallpaper
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/livewallpaper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/livewallpaper/js.json
+
 Package: com.axs.lockplayer
 Architecture: iphoneos-arm64
 Version: 5.2.0-12
@@ -515,6 +711,88 @@ Name: LockPlayer
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/lockplayer.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/lockplayer/js.json
+
+Package: com.axs.minifilza
+Architecture: iphoneos-arm64
+Version: 1.0.0-31
+Section: Tweaks
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 528
+Depends: firmware (>= 14.0), mobilesubstrate | ellekit, preferenceloader
+Filename: debs/com.axs.minifilza_1.0.0-31文件管理.deb
+Size: 67036
+MD5sum: 6aa4382f5ab9b0c591ad05fcb7ddee2d
+SHA1: e05b61c2a7f2bfe84f2fb7a0019d09d61c751999
+SHA256: 6f113f58e03374dbfc930aa848003415d0e713c432cff5a608ba3abf9d729395
+SHA512: ea55b73e82f41533a1e741c85fb99e2d6fb6c549282ff83f90e1a584bae19544dd226ed3e315a081287d5df8f2195d29c8b319f6bdff57dfdefd01f12de01970
+Description: 功能介绍：悬浮窗文件管理与存档操作
+    1. 越狱安装每个app打开都会有一个悬浮图标,点击打开功能菜单,长按会隐藏,三指双击可恢复显示。
+    2. 巨魔注入或者自签安装,即可实现独立app启用该悬浮文件管理。
+    3. 操作指南：点击悬浮图标打开功能菜单,长按会隐藏,三指双击可恢复显示
+Name: MiniFilza
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/minifilza.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/minifilza/js.json
+
+Package: com.axs.newfeature
+Architecture: iphoneos-arm64
+Version: 5.2.0-532
+Priority: optional
+Section: 微信插件
+Maintainer: Axs <qiaozhani000@163.com>
+Installed-Size: 1256
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.axs.newfeature_5.2.0-532_iphoneos-arm64.deb
+Size: 357116
+MD5sum: 290a93a67805b9da149ecef83bc7f90e
+SHA1: 5f420470bc641f66a8f3b5c38bf45bcaae0d50f7
+SHA256: 818e10e9afd4660eaf4fb1a89458df132afaf2fae6e3734eeb4b34e301f85c62
+SHA512: 13c77fe0a45002c1f7a023f566a9301c8577754d1e5ca78452e05fbb787ff10f8794ec0464b7d25d2e70aad1700cfcf5d66fc1f30173adbd04d25c63b73a7856
+Description: 一个简单的微信插件。功能介绍：
+ * 1.账号信息：用户信息、应用信息、签名信息。
+ * 2.内测功能：微信各版本灰度功能提前享用。
+ * 3.输入窗口：聊天界面输入框美化及增强功能。
+ * 4.实用功能：抢红包、游戏作弊、步数修改、虚拟定位、消息防撤回、消息屏蔽、消息引用、引用消息点击跳转、全屏三击截图、全屏返回手势、后台保活、首页列表长按预览、隐藏微信号、朋友圈显示详细时间。
+ * 5.附件布局：聊天功能面板 2x5布局(可自定义排序)。
+ * 6.信息时间：聊天界面消息时间自定义。
+ * 7.触摸轨迹：微信内置触摸轨迹自定义。
+ * 8.头像设置：微信头像的圆角、个人页头像旋转、聊天界面隐藏头像等功能。
+ * 9.字体加载：在微信内置字体，支持ttf或otf格式。
+ * 10.文件管理：支持文件管理、上传、分享、复制、移动、压缩、删除、重命名；数据存档及恢复、清理数据等。
+ * 11.美化功能(Svip群享受)：
+    11.1 微信头像-自定义位置，状态，特效。
+    11.2 微信铭牌-群聊昵称铭牌。
+    11.3 首页背景、菜单背景等支持多媒体。
+    11.4 底栏背景：隐藏图标文字、特效等。
+    11.5 时间背景、SVG图标随机颜色。
+ * 12.其他功能：输入法隐藏Logo、图片边缘点击关闭、图片信息扩展、微信去广告、绕过越狱检测、自动登录、朋友圈消息尾巴、动态背景。
+Name: NewFeature
+Author: Axs <qiaozhani000@163.com>
+Icon: https://axs66.github.io/pro/icon/wechat.png
+SileoDepiction: https://axs66.github.io/pro/sileodepiction/newfeature/js.json
+
+Package: com.axs.screenshellpro
+Architecture: iphoneos-arm64
+Version: 5.2.0-42
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 540
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.axs.screenshellpro_5.2.0-42_iphoneos-arm64.deb
+Size: 66376
+MD5sum: 59f8c0f0cd67e3fad7f21b94357aeaec
+SHA1: e90e6ec6d35714b762709db451c2ac2428f28616
+SHA256: b1c2135a136af1a5e51585d9a75f73cf044e07c1e9e06878364316458ff7757e
+SHA512: 1b23df0bb3aa24bbcf2415179b422e81eb244d938429e539bfa5d68117b568230fa5e844fd119431f37ddb5e188706c20ae3ba107728a475ea91b6b446302d76
+Description: 专业的 iOS 全局水印&套壳『截屏.录屏』增强工具。插件需要授权才能使用。授权请联系微信：VCR66T
+ * 1. 录屏套壳渲染极快。
+ * 2. 渲染过程中手机不发烫。
+ * 3. 插件不需要任何依赖。
+ * 4. 本插件是目前市面上最好的录屏套壳渲染工具。
+Name: ScreenShell Pro
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/screenshellpro.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64e
@@ -552,6 +830,67 @@ Name: Snapper 4
 Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+
+Package: com.axs.snapper4
+Architecture: iphoneos-arm64
+Version: 5.2.0-45
+Section: Axs-Tweaks
+Maintainer: Axs <qiaozhini000@163.com>
+Installed-Size: 2491
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.1)
+Conflicts: com.jontelang.snapper3, com.susudear.stayshot,  com.axs.snapper3tag,  com.iosdump.shellx
+Filename: debs/com.axs.snapper4_5.2.0-45_无根rootless_图标皮肤.deb
+Size: 1002560
+MD5sum: 68d13decfc9465b244c5922732cbff22
+SHA1: ab790b914bf287325b41a53856e4b2a60ad5b89c
+SHA256: f49e86badac5c61aa187f1ac4bee6889cc5fd869fecb6a60c15be8396433361f
+SHA512: 8d6107c155deca2e654dcd256041957135ca619f0fe2af133908c93b583978cbdc0d7262a9270b129f04958742fb6e553d13585c432464eb284430ee32ddf660
+Description: 这是一款截图工具。
+ * 一、基本设置
+ * 1、移动标记：开启后标注内容可拖动调整位置；
+ * 2、功能开关与排序：设置面板内可开关并拖拽排序全部功能。
+ * 二、触发方式
+ * 1、音量增+电源键=：可选系统截图或插件截图；
+ * 2、长按音量减→插件截图：开启后长按音量减约 0.2 秒调出冻结模式。
+ * 三、截图设置
+ * 1、截图仅复制：截图后仅复制到剪贴板；
+ * 2、长截图方式：滚动拼接 / 一镜到底，智能帧匹配自动拼接；
+ * 四、AI 服务（识别与翻译）
+ * 1、Sileo：Sileo 描述页长按翻译纯文本，翻译方式可选百度翻译或 AI 翻译；
+ * 2、AI 互译与问答：中英文互译与中文问答，支持自定义提示词与 AI 对话模式，半屏浮层展示；
+ * 3、文字识别 (OCR)：模型识别截图文字，半屏浮层展示、涂抹选择、一键复制；
+ * 4、百度翻译：自动检测语言双向翻译（中文↔外语），支持图片翻译 / 文本翻译双通道。
+ * 六、图标皮肤（本包新增，无根rootless 版）
+ * 素材目录：<jbroot>/Library/Application Support/Snapper4/Snapper4Resources.bundle/Skins
+ * 设置页里的「图标风格」= 素材目录下的文件夹名，文件夹改名/新增会立刻同步；
+ * 该目录下的素材不会被本包升级/重装覆盖或恢复（包内不含该目录的任何文件）；
+ * 包内自带蓝珀 / 透光 / 玻璃三套，缺的图标自动回退原版。
+ * 五、扩展功能
+ * 1、截图标记：颜色/箭头/自由画线/文字/矩形/圆形/高亮/马赛克/撤回/删除/保存/复制；
+ * 2、URL 触发：支持手势插件通过 prefs:root=snapper4_freeze（冻结）/ prefs:root=snapper4_long（长截图）系统深链触发。
+Name: Snapper 4
+Author: Axs <qiaozhini000@163.com>
+Icon: https://axs66.github.io/pro/icon/snapper.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper4/js.json
+
+Package: com.axs.switchicon
+Architecture: iphoneos-arm64
+Version: 5.2.0-45
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.axs.switchicon_5.2.0-45_iphoneos-arm64.deb
+Size: 55722
+MD5sum: 4c703cac12029d880c193e81064a5659
+SHA1: 95c12d5ee951d3d9ffc2692cc71bfc498c38e634
+SHA256: a5ae35b5683aa08cc5ba2c92a6c2a806330dc4df9856a90aaad6f55addc4344d
+SHA512: 8cd91bdaef47382afdc0049fb7322e02109999f49ab1cbb8600727bd2c9d4093c63d2b7fabf4bcbb078a9dac2c632aa841dfcb047ccc78fa087fa8d2eb42e1fb
+Description: 一个简单的全局控制开关UI美化插件.
+Name: Switch Icon
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/switchicon.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/switchicon/js.json
 
 Package: com.axs.touchtrail
 Architecture: iphoneos-arm64
@@ -624,6 +963,76 @@ Name: iCleaner Pro 小扫把
 Icon: https://axs66.github.io/pro/icon/iCleanerPro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/icleanerpro/js.json
 
+Package: com.flex2areo.apptools15rootless
+Architecture: iphoneos-arm64
+Version: 2.6.3
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 3076
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.6.3_iphoneos-arm64.deb
+Size: 790476
+MD5sum: dd72ecbc896f1f2a48a6da6d3a573d5d
+SHA1: dd35c89d349d7cd86d45cb7a3097c1830e9af77f
+SHA256: 4ddfa2ca2e2b32e30e2d9108159fc7711c68ae22939ce057ace7b82a0172552b
+SHA512: e4a1568bebe290ec2bed833bf620f53dcc82592d79a7707823e2c3edcdff441ec9f23eb346401fa1d1a855eacc2f7c2ae8621895827d887b6bfb762dd76868f7
+Description: AppTools for iOS15-17 Rootless
+Name: AppTools15-16(Rootless)
+Author: aReo
+
+Package: com.hang.zzzj
+Architecture: iphoneos-arm64
+Version: 0.0.1-8+debug
+Section: Tweaks
+Maintainer: hang
+Installed-Size: 180
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.hang.zzzj_0.0.1-8_debug_iphoneos-arm64.deb
+Size: 33788
+MD5sum: 226084118b0e3a132f3c6d89e3440dfc
+SHA1: b957a24eac532555ccbb6c010b5a82e5db244b0c
+SHA256: 3ef498596e36bdef1fafe8f16b8d8436354b8835e9c3f37b423206805fae6bd0
+SHA512: ba8022fbb86a5ff9979f04b777e9f3a09222462bf1cd10878ff4e8dac71ffa063d22b9156117296a3ad02a8c2223e933db5e27616008a1d43f5ca232d9fbebf0
+Description: 转转搜索筛选助手：悬浮球面板，按机型/电池/系统版本/成色筛选，带复制链接
+Name: 转转找鸡
+Author: hang
+
+Package: com.iosdump.customccbg
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 420
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customccbg_0.0.3_iphoneos-arm64.deb
+Size: 49654
+MD5sum: 9d643e0431e3f6424a09c78ae8bfa217
+SHA1: 1fbaf876665703e5fef869690b8087a58666aee5
+SHA256: 102efd4d49fb2c738b35c5e40e2f827a23334954e6d42216e4530c97c79bd7e8
+SHA512: 8355b4fe1f4d1085c4872f5245a23c594d573eaba72e5fb6a06bff5d86d9ca1746190cb074db08b3cd6b61a3caa71c5c9d6e326fb3a8ee1ac7d316af40be48f8
+Description: iOS 14-17 控制中心背景自定义
+Name: CustomCCBg
+Author: iosdump
+
+Package: com.junzai.screenshotwatermark
+Architecture: iphoneos-arm64
+Version: 1.0
+Section: Tweaks
+Maintainer: junzai & Axs
+Installed-Size: 552
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: debs/com.junzai.screenshotwatermark_1.0_iphoneos-arm64.deb
+Size: 58702
+MD5sum: 80da6b62ec3e53942e4c25c965b3bd50
+SHA1: 5de77cd3aea8735cbc7ca2df1cd7998125aefe75
+SHA256: 29613b7149fb4f4b2983a21955c05b5f88e92a38001b2ce8236b3fe9df489041
+SHA512: 8658dff4850ad16d025f869e947bb27d0bfdce471d6252803ef5b987c36a14c7db175d2feb58c5fecfc0a75d44ee2b2292d12e9ed618b67c0e14eab75aa98ec1
+Description: 全局截图添加水印
+Name: 全局水印
+Author: junzai & Axs
+Icon: https://axs66.github.io/pro/icon/screenshotwatermark.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshotwatermark/js.json
+
 Package: com.nan.bindfs
 Architecture: iphoneos-arm64
 Version: 0.7.3
@@ -682,6 +1091,23 @@ Name: SnowBoard
 Author: Spark & Dennis D. Bednarz
 Icon: https://axs66.github.io/pro/icon/snowboard.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
+
+Package: com.susu.suspendedpets
+Architecture: iphoneos-arm64
+Version: 1.1
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 37052
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.susu.suspendedpets_1.1_iphoneos-arm64.deb
+Size: 14218220
+MD5sum: df020dd1a736cecc986b122e39a4871a
+SHA1: 33f30e7ed42877e226bb43054f672f786137caff
+SHA256: 897f2c792fcbab79d679b349f0290359d5ccba02220262def39f148f2df573ab
+SHA512: ab1473f3f3bfff38ea022e17b04e0df7a28062deaab67e5ac73853db19def682a442d8181cdd3410945b1c9e07f818c8d3e8e4947a5d02ee7db39a14e8314114
+Description: An awesome MobileSubstrate tweak!
+Name: SuspendedPets
+Author: SuSu
 
 Package: com.tigisoftware.filza64bit
 Architecture: iphoneos-arm64
@@ -789,6 +1215,119 @@ Description: 电话助手激活用户专属免费插件
 Name: 灵动通知iOS16-正式版(Rootless)
 Author: xybp888
 
+Package: com.yaowell.cowbellx
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: yaowell
+Installed-Size: 172
+Depends: mobilesubstrate
+Filename: debs/com.yaowell.cowbellx_1.0.0_iphoneos-arm64_81.deb
+Size: 8734
+MD5sum: 1435cdb0ee0b8ec16e20003312c8135f
+SHA1: 234b037e700925f6d12c6a04595befcb4d935a23
+SHA256: 8e7e01cd9f2d7f4dccf2f649ecf420073d7215f5f132b65d90a2076263a455e6
+SHA512: ef9ba97ca92c7a12de250146a357b1b87b19b09b461c61ba8ac500f9bcbfc9ba803c0866912f8cb005d22c0a64d450f5f1dfd500b1855f99ce6a312fca6b6b3f
+Description: 低电量模块电池显示百分比图标 填充条随电量实时变化 Battery percent in Low Power Module Icons and fill bars adjust dynamically with battery leve.
+Name: CowbellX
+Author: yaowell
+
+Package: com.axs.controlcentre
+Architecture: iphoneos-arm64
+Version: 5.2.0
+Section: Tweaks
+Maintainer: Axs
+Installed-Size: 692
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/controlcentre_5.2.0-119_无根.deb
+Size: 93390
+MD5sum: 1e5b9a31ac01e6333367c2bdfe450e05
+SHA1: ff338440fb7a2e653b6d5d846858224f4f8bb181
+SHA256: fd100ab0f37db635d30b4e4e26a0d2392fbfce9d823cf3e73e9769bf90807e78
+SHA512: a637db4f1bba1cbf895f1893a30d1e95136fd07abb7a50f469b49911526431d478c5e435a011a7aa94002376ce9971634e8ad61d77fc51e1cbfc3794969e31da
+Description: 控制中心美化插件，支持背景图/视频、模块外观、滑块增强与模块动态背景.付费插件，需要请联系微信:VCR66T
+ * 1. 支持控制中心背景图片/视频素材选择、清理与素材目录打开。
+ * 2. 支持播放控制图片/视频素材背景，不影响原生功能触摸。
+ * 3. 支持连接卡片图片/视频素材背景，不影响原生功能触摸。
+ * 4. 支持模块边框、圆角、透明度，以及连接/Focus 小按钮独立圆角。
+ * 5. 支持音量和亮度 2×1 横向布局、百分比显示、图标颜色与文字样式调整。
+ * 6. 支持自定义VPN状态栏图标。
+Name: ControlCentre
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/controlcentre.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/controlcentre/js.json
+
+Package: moe.waru.soko
+Architecture: iphoneos-arm64
+Version: 1.0.0-rc.3-1+debug
+Section: Tweaks
+Maintainer: waruhachi
+Installed-Size: 1076
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/moe.waru.soko_1.0.0-rc.3_iphoneos-arm64.deb
+Size: 138316
+MD5sum: 4d5d71bdf97370b07321737df05c97c9
+SHA1: 0681c193b09d2b1c396aa0c629d2559bdd3c66dd
+SHA256: bb009f5c447e5bbe13582f65cc9e388e07b5052600a0a681d364b8d23d0c707a
+SHA512: 7ecb7da78826cb5f04d1cc72f970bb2403589332551b206dfddfbd09240dc91aac763106497d068873b3d3069f1081f407703562a21e4cbd4bb5dae8e5bfe9fd
+Description: iOS 26 style Lock Screen widgets
+Name: Soko
+Author: waruhachi
+
+Package: com.susudear.screencore
+Architecture: iphoneos-arm64
+Version: 2.0.2
+Section: Tweaks
+Maintainer: SuSu
+Installed-Size: 2964
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/screencore分屏_2.0.2_无根.deb
+Size: 466096
+MD5sum: e6f8e584a15e88a9554a91359360ec5d
+SHA1: eb20df3bd04150d04a375e33ca5a7192e6e7f7d9
+SHA256: 768474e1c0abb4400108a06eaf9aa902bbb01a4fc7433ef392e19182718e1e98
+SHA512: 8d248f846fbddead3765bbd3413083c739f9c63b88d73df7af3cc1939460414a1d57870cbd3832abfc8a5d8221ce2f9d1c11b218cf71038b0b890d2cc1691c0e
+Description: 分屏而已
+Name: ScreenCore
+Author: SuSu
+Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+
+Package: com.susu.sumusicplayercc
+Architecture: iphoneos-arm64
+Version: 1.0.1
+Section: Control Center (Modules)
+Maintainer: 苏苏
+Installed-Size: 628
+Depends: com.opa334.ccsupport
+Filename: debs/ss3×2播放器.deb
+Size: 86792
+MD5sum: ebda2b1b092c499a7fb954e9f07e5915
+SHA1: 8ae56b7636694f6fb4dd195060e063431b97edb7
+SHA256: 17578d3f496ce6e1f7d32daba12c30f97ca7337f4d1f15dd123f5f9ea42f9b4a
+SHA512: a9d925e3a5b507c78f2d353a21bdada35e2fef452213332525964864837f17dc4b4d552e3cb0d1829c2ed7229b414845fd940db0ed799724f53234df12634842
+Description: 控制中心音乐播放器
+Name: SuMusicPlayerCC
+Icon: https://www.susubaby.top/images/sumusicplayercc.png
+Author: 苏苏
+
+Package: com.Axs.yuanjiao
+Architecture: iphoneos-arm64
+Version: 1.8.6-END
+Section: 微信插件
+Maintainer: Axs
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 12.0)
+Filename: debs/全局圆角_1.8.6-END_无根.deb
+Size: 642728
+MD5sum: 893dedeae7e7c8aa64b9ab9f33f5109c
+SHA1: 71a2947a12c025e8d04ad250342acd77e78b67a6
+SHA256: 4d98bae3c752c6548b95448f854cf2e4779a5f28cc8606dd2275fe7ea103aa81
+SHA512: 26d41ae7c7e9bf43871645d13c42808fd2d151a9d3500a7eb73926961fe4681437fb2ed43f9cd60c1c6f5ab7b319ad5844edf3406dee401ac8f85e49f6333ed7
+Description: 功能介绍：1.圆角位置包括：全局头像旋转、聊天界面(图片、视频、引用、长按消息、文件、红包、音乐、小程序、公众号、聊天记录、定位、名片、收藏、对话时间、群置顶等等)、消息列表界面（左滑、右滑），相册、会话、朋友圈、视频号等各种界面的圆角。2.横幅通知：粒子动画，视频特效等。 3.付费插件 9.9 授权，添加微信 VCR66T 授权。
+Name: 全局圆角
+Author: A
+Icon: https://axs66.github.io/repo/icon/wechat.png
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/yuanjiao/js.json
+
 Package: com.Axs.bofangqi
 Architecture: iphoneos-arm64
 Version: 0.3.14
@@ -809,4 +1348,21 @@ Name: 原生播放器调节
 Author: 夜辰
 Icon: https://axs66.github.io/pro/icon/ccaudioplay.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/bofangqi/js.json
+
+Package: com.1111
+Architecture: iphoneos-arm64
+Version: 0.0.1-185+debug
+Section: Tweaks
+Maintainer: 111
+Installed-Size: 164
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/炫彩气泡1.1.2-arm64.deb
+Size: 33168
+MD5sum: 107897f0bc946628d341cdee4bf4f26b
+SHA1: 071fceb2ce75c8e9f6b63fa66c5804462bf108eb
+SHA256: 9c4ed46b9390f850c9a1afa913fdc12191393f36386bfac0fe120f6bda37b28d
+SHA512: f2d550e98e7e083fa1cfbd7f80a8216da44fc088e3f9cd5aa304e40ecf73912168185904872f1eda652a0cb797f6927b175e5d1912df26d1e8c592090cdae088
+Description: An awesome MobileSubstrate tweak!
+Name: 111
+Author: 111
 
