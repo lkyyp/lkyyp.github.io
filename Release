@@ -8,8 +8,8 @@ Components: main
 Description: lkyyp 的越狱软件源
 Support: https://lkyyp.github.io/lkyyp.github.io/
 MD5Sum:
- 8a2f7fb7640d5a5540bbe868f6738506  65479 Packages
- 4fda1da0dea3e2b867ac2e01bae8fc41  26001 Packages.gz
+ 5978a6c76a483b6b5aaadb79519d5c93  66282 Packages
+ 1b04746ce345959f6a9a34ea733f84cd  26227 Packages.gz
 SHA256:
- 65f80a283b8b215b7702c121dcf32cf3cd9f5a50cf26e040ca0b974ba8f19a75  65479 Packages
- 1b6a4eeee9f8846d715c93daa3b90f0e3986759a5d1094adf522e19ebdaa17e8  26001 Packages.gz
+ c3585043da91b9bdc3f30e11c3104ae348682b975f532709ccabbabcd0aebc03  66282 Packages
+ e82e27447658d63a0317d1099ad7f17b7a56bbb0c0ff904810c660d4de9c9edb  26227 Packages.gz

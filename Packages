@@ -1370,3 +1370,22 @@ Description: An awesome MobileSubstrate tweak!
 Name: 111
 Author: 111
 
+Package: com.axs.headsetplay
+Architecture: iphoneos-arm64
+Version: 5.2.0-10
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 356
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/蓝牙续播headsetplay_5.2.0-10_iphoneos-arm64.deb
+Size: 25266
+MD5sum: dd313063e1839d5d292052dc1dc670b9
+SHA1: 5ef971956c2f3caa0a19d7ce3713bedb7854f25a
+SHA256: 13c810c20fff685d63c620ada22e5911b764cb8cb7ad55afa54796d0f30eb780
+SHA512: 909de9789d42b325c23b7c2c12750dce6da82b81557da4906e5445b4903513a1b8dc8c522a74f994dabea0ce5a4f62c0db801b7c6eb83f9b6d5969f341cc9824
+Description: 蓝牙耳机连接后自动打开所选音乐 App 并继续播放
+Name: 蓝牙耳机续播
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/headsetplay.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/headsetplay/js.json
+
