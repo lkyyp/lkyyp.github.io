@@ -1084,6 +1084,23 @@ Description: AppTools for iOS15-17 Rootless
 Name: AppTools15-16(Rootless)
 Author: aReo
 
+Package: com.flex2areo.apptools15rootless
+Architecture: iphoneos-arm64
+Version: 2.9.3
+Section: Tweaks
+Maintainer: aReo
+Installed-Size: 5632
+Depends: mobilesubstrate
+Filename: debs/com.flex2areo.apptools15rootless_2.9.3_iphoneos-arm64.deb
+Size: 2403090
+MD5sum: 8964009c35d831c8bb3021d52ee4ca81
+SHA1: 29ad726ca5a98a494c66598799b59071f1de71a0
+SHA256: e0cd834b510a19feb9aa90fa36836a257c94bab2ea03870866f59178238c85d5
+SHA512: af85071d7789de64bc83ce435a5684ad3154f595f290002fbcb5baafa2068d4f29c313342a0bbb31811e60fc74fc4322eb6240ceb26c04876aa810905e619a8a
+Description: AppTools for iOS15-17 Rootless
+Name: AppTools15-17(Rootless)
+Author: aReo
+
 Package: com.hang.zzzj
 Architecture: iphoneos-arm64
 Version: 0.0.1-8+debug
