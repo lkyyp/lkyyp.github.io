@@ -250,6 +250,25 @@ Author: korboy
 Icon: https://axs66.github.io/pro/icon/filza.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/filzaswipeselect/js.json
 
+Package: com.Axs.hide2less
+Architecture: iphoneos-arm64
+Version: 0.1.3
+Section: Utilities
+Maintainer: Banana
+Installed-Size: 580
+Depends: firmware (>= 15.0), dpkg (>= 1.21.18), ldid, shell-cmds
+Filename: debs/com.Axs.hide2less_0.1.3_iphoneos-arm64.deb
+Size: 162412
+MD5sum: 7b888f70cd9600ebfe8a3101607f5895
+SHA1: 60ad5d508d1980286b11bd73b7d6f7e134474d71
+SHA256: 2cfd9139d99357a6c7da7a7b831b373a027091ba26b869d9928a41bfbadcbbcf
+SHA512: 295c34a4a06dd6660c4f12dc66198a48ee1466deae829c045ab833d3ad4188b0c4e747a732ac758b77ac008e761189bb0df6710e6f4d6dddb78ea739514874a5
+Description: 隐根插件转换为无根插件
+Name: Hide2Less 隐根转无根
+Author: Banana
+Icon: https://axs66.github.io/pro/icon/hide2less.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/hide2less/js.json
+
 Package: com.Axs.kongzhidiy
 Architecture: iphoneos-arm64
 Version: 2.3.6-end
