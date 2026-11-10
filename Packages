@@ -308,6 +308,24 @@ Author: iCraze
 Icon: https://axs66.github.io/pro/icon/SmallBoard.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/SmallBoard/js.json
 
+Package: com.Axs.touchvis
+Architecture: iphoneos-arm64
+Version: 2.8-1
+Section: 录屏轨迹
+Maintainer: Axs
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.touchvis_2.8-1_iphoneos-arm64.deb
+Size: 708640
+MD5sum: 3f9da7789cfc6c543d7ac5593fb87b0e
+SHA1: d05940b05cbba364efd5a2e54877550b8ab7e6a6
+SHA256: e144835f3588f6e758d377b4bc2892f7e7b50c5223473f63af0c8504863d2b74
+SHA512: eb661da86e12138e1526b817d044c97a2a9e776c403cfba5f9a9c3e72aa0183e716feb7c49d47c4191b2491441c1bbb63f68e8d217d27a782e273d58b73f9ed6
+Description: Displays your touch interactions! 显示触摸屏幕的轨迹；很酷炫，很丝滑的一个插件，并附带拖尾效果。主要作用:做教程时候让别人知道你点的哪里。
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/touchvis/js.json
+Icon: https://axs66.github.io/pro/icon/TVZ.png
+Name: Touch-Viz触摸轨迹
+Author: Lessica
+
 Package: local.minis.hideairdrop
 Architecture: iphoneos-arm64
 Version: 1.1.0
@@ -349,6 +367,25 @@ Name: Axon
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/axon.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/axon/js.json
+
+Package: com.axs.animate
+Architecture: iphoneos-arm64
+Version: 5.2.0-7
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 536
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.axs.animate_5.2.0-7_iphoneos-arm64.deb
+Size: 70402
+MD5sum: e5aec1b94501e7f5c0d394e8dc74e6bc
+SHA1: 621a57d60ab7c2b414c8bc8d9c2929e6ac44e9d4
+SHA256: 4770793e747ec67233a8850b5e4ba79b63f789343749166e86ed52cb4a2c6d33
+SHA512: aafb615d5b59f381a5ad0a9fe257f5db00e28aedbdffc3a7ff82cb061e93b26447b234cc51a70cb6f3d386866b6d57603dc00277b669142c13a473038d7a5819
+Description: 为 iOS 15 及以上系统带来 iOS 27 风格的应用切换和通知中心动画，支持自定义动画效果、速度与强度。
+Name: Animate
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/animate.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/animate/js.json
 
 Package: com.axs.appiconbundles
 Architecture: iphoneos-arm64
