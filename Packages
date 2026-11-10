@@ -1284,6 +1284,27 @@ Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡�
 Name: 电话助手iOS15-正式版(Rootless)
 Author: xybp888
 
+Package: com.xybp888.callassist16.dopamine
+Architecture: iphoneos-arm64
+Version: 3.4.3
+Priority: optional
+Section: Tweaks
+Maintainer: xybp888
+Depends: firmware (>= 16.0), preferenceloader, com.opa334.libsandy
+Conflicts:
+Replaces:
+Filename: debs/com.xybp888.callassist16.dopamine_3.4.3_iphoneos-arm64.deb
+Size: 3707034
+MD5sum: 33af1ae1a229b27e05154bd74e153f3d
+SHA1: 1cafea2ff2547b95e597f6caf005a4c46529350a
+SHA256: 205793c53537f47692efac34cc47c492a6fc62189e75aa6d83228c8476a501e7
+SHA512: 25838aa5bd66f3bae1562ba13764898f2979d3b3806cdfa484a29ad7c4772944994af3b149d45d92628135f32def73677520297fb9e2ca90f259a317894f91c1
+Homepage:
+Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Name: 电话助手iOS16-正式版(Rootless)
+Author: xybp888
+dev: xybp888
+
 Package: com.xybp888.callassist17.dopamine
 Architecture: iphoneos-arm64
 Version: 2.4.3
