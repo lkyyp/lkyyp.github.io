@@ -193,6 +193,25 @@ Author: simon
 Icon: https://axs66.github.io/pro/icon/ccweathermodule.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/js.json
 
+Package: com.Axs.classickeyboardxs
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: 系统增强
+Maintainer: Axs
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/com.Axs.classickeyboardxs_1.1-9_iphoneos-arm64.deb
+Size: 275908
+MD5sum: 0400f316d3efbf70db36d5648d445696
+SHA1: 6aa3fee0d7e1cf817f1a3f242daa1941bcb5abc2
+SHA256: ccb6705ff803aeea5ce777ae5009f4f15037b7eff68bc38d45ed13e041f2ba9d
+SHA512: eb9cb0f8f81a92a777a5bc9e592519816362a0735281d7f3d3d37e1721f87d1e8f571df07e1941d8c4007a74646b27e2de94e154c64a62f3806abe4e415ae4bc
+Description: Customize the height of the bottom of the X-keyboard, the height of the bottom of the earth, etc.自定义X键盘底部的高度，地球底部的高度等。可以解决1.3.7版Svp分屏开启后，地球或者语音按不动的问题。
+Name: ClassicKeyboardXS 键盘高度调整
+Author: Netskao
+Icon: https://axs66.github.io/pro/icon/classickeyboardxs.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classickeyboardxs/js.json
+
 Package: com.Axs.filzacrack
 Architecture: iphoneos-arm64
 Version: 1.1-9
@@ -493,6 +512,28 @@ Name: CallerShow
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/callershow.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/callershow/js.json
+
+Package: com.axs.classicfolders
+Architecture: iphoneos-arm64
+Version: 5.2.0-25
+Section: Axs-Tweaks
+Maintainer: Axs
+Installed-Size: 576
+Depends: mobilesubstrate, preferenceloader, firmware(>=15.0)
+Filename: debs/com.axs.classicfolders_5.2.0-25_iphoneos-arm64.deb
+Size: 68056
+MD5sum: 5c4fc465770d99e3a0c0c63fec812edb
+SHA1: 5fa563b4d883f26b7fe15034603bd0a10bf662f7
+SHA256: c93ddc8cae50ec7d8f1997d49a0e437783fdd1f381a1019a77d37990983d8e1c
+SHA512: f5479bfd2deb3d09fb107d24e32f1d8b252be9cd80eefd06b8b1932b8df4d20c14dad33cee68bdd7daf8a9cd2fdcd39c6deafbc4b7dfa946b528036bd99e2ca2
+Description: 让 iOS 15+ 的桌面文件夹按经典 macOS 风格原位展开。
+ * 1. 点开文件夹时在图标原位弹出半透明玻璃面板，桌面图标随面板重排、淡出
+ * 2. 支持重命名、轻点空白关闭、启动应用自动收起
+ * 3. 支持导入图片、GIF、静音视频作为文件夹面板背景
+Name: ClassicFolders
+Author: Axs
+Icon: https://axs66.github.io/pro/icon/ClassicFolders3.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/classicfolders/js.json
 
 Package: com.axs.clean
 Architecture: iphoneos-arm64
@@ -797,6 +838,46 @@ Name: ScreenShell Pro
 Author: Axs
 Icon: https://axs66.github.io/pro/icon/screenshellpro.png
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/screenshellpro/js.json
+
+Package: com.axs.snapbackup
+Architecture: iphoneos-arm64
+Version: 3.8.3
+Section: Tweaks
+Maintainer: kanuo
+Installed-Size: 648
+Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
+Filename: debs/com.axs.snapbackup_3.8.3_iphoneos-arm64.deb
+Size: 1074984
+MD5sum: 0bffd2860077b11fdcd31986ddb54856
+SHA1: a42d8bebdce34fe566c03a99312fa1b294195bdd
+SHA256: fcb3587b1a009b2442606c6e59d1cbf7adcab1d6df8c3099abdda9edd9d8d051
+SHA512: 766f34b2e41ce3b1c56316ec3f1408ba12246c3d33e461241e7b25f322b8bdd4f011b564acd346e555643630ae15355d68e9bbace510c2271fa2b07584485e44
+Description: 全能越狱备份恢复与系统垃圾缓存清理工具，支持 Rootless + RootHide（隐根）。 轻量、现代化的越狱管理工具，集插件备份、配置恢复、批量安装与深度垃圾缓存清理于一体，解决重装系统、重新越狱、插件迁移及设备存储空间管理等问题。 
+ * 【核心功能】 
+ * 一、插件备份与恢复
+ * 1. 一键备份已安装插件，现场重新打包 DEB，同时保存软件源、依赖及插件偏好配置。
+ * 2. 支持轻量清单备份、完整离线备份、选择性备份及仅配置备份。
+ * 3. 自动识别带设置界面的插件，统一归档插件、依赖、配置文件及相关目录。
+ * 4. 支持多选恢复、批量安装本地 DEB，自动加入 Sileo 原生安装队列。
+ * 5. 插件安装与配置恢复独立操作，支持跳过已安装插件、配置覆盖前备份及恢复日志。
+ * 6. 记录SHA-256、文件权限、所有者及包元数据，辅助校验备份完整性。
+ * 二、深度垃圾缓存清理
+ * 1. 全盘扫描应用缓存、系统公共缓存、临时文件、日志及其他可清理数据。
+ * 2. 自动统计垃圾文件数量与占用空间，按应用及文件类型分类展示。
+ * 3. 支持逐项勾选、全选、全不选，清理前显示预计释放的存储空间。
+ * 4. 提供文件路径查看及目录定位，方便检查缓存来源与具体内容。
+ * 5. 对系统资源、系统诊断数据等敏感项目进行独立标记，默认不自动勾选，需手动确认后清理。
+ * 6. 支持选择性删除，避免误删重要系统资源及应用数据。
+ * 【操作说明】
+ * 1. 备份：主页 → 一键备份 → 选择备份模式 → 等待完成。
+ * 2. 恢复配置：主页 → 恢复配置 → 选择备份包。
+ * 3. 恢复插件：主页 → 恢复插件 → 选择备份包 → Sileo 确认安装。
+ * 4. 垃圾清理：主页→清理垃圾缓存→扫描→勾选项目→确认删除。
+ * 备份目录：/var/mobile/Documents/SnapBackup/ 后台不常驻运行，仅在用户主动打开时执行，不增加后台常驻功耗。
+Name: SnapBackup 备份恢复&清理工具
+Author: kanuo
+Icon: https://axs66.github.io/pro/icon/snapbackup.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapbackup/js.json
 
 Package: com.axs.snapper4
 Architecture: iphoneos-arm64e
